@@ -30,7 +30,7 @@ public class Item {
         this.catidad = catidad;
     }
 
-    public Double getTotal(){
+    public Double getTotal() {
         return producto.getPrecio() * catidad.doubleValue();
     }
 }

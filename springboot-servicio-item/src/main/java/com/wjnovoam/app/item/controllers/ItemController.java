@@ -22,17 +22,17 @@ public class ItemController {
     private ItemService itemService;
 
     @GetMapping("/listar")
-    public List<Item> listar(){
+    public List<Item> listar() {
         return itemService.findAll();
     }
 
     @HystrixCommand(fallbackMethod = "metodoAlternativo")
     @GetMapping("/ver/{id}/cantidad/{cantidad}")
-    public Item detalle(@PathVariable Long id, @PathVariable Integer cantidad){
-        return itemService.findById(id,cantidad);
+    public Item detalle(@PathVariable Long id, @PathVariable Integer cantidad) {
+        return itemService.findById(id, cantidad);
     }
 
-    public Item metodoAlternativo(Long id, Integer cantidad){
+    public Item metodoAlternativo(Long id, Integer cantidad) {
         Item item = new Item();
         Producto producto = new Producto();
 

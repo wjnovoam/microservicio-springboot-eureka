@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @Service("servicefeing")
 @Primary
-public class ItemServiceFeingImpl implements ItemService{
+public class ItemServiceFeingImpl implements ItemService {
 
     @Autowired
     private ProductoClienteRest productoClienteRest;

@@ -10,7 +10,7 @@ public class AppConfig {
 
     @Bean("clienteRest")
     @LoadBalanced //Va a utilizar Ribben para el balanceo de carga
-    public RestTemplate registrarRestTemplate(){
+    public RestTemplate registrarRestTemplate() {
         return new RestTemplate();
     }
 

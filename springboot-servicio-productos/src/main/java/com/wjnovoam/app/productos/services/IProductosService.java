@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface IProductosService {
     List<Producto> findAll();
+
     Producto findById(Long id);
 }
