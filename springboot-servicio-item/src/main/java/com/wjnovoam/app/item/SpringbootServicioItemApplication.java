@@ -2,11 +2,9 @@ package com.wjnovoam.app.item;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableCircuitBreaker //toleracia de fallos y latencia con Hystrix
 @EnableEurekaClient
 @EnableFeignClients //Esta anotacion es importente para habilitar nuestros clientes feing, nos permite inyectar estos feing en los controladores
 @SpringBootApplication
