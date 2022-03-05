@@ -43,7 +43,7 @@ public class ProductoController {
             throw new IllegalStateException("Producto no encontrado");
         }
         if(id.equals(7L)){
-            TimeUnit.SECONDS.sleep(5L);
+            TimeUnit.SECONDS.sleep(6L);
         }
         Producto producto = iProductosService.findById(id);
         producto.setPort(Integer.parseInt(env.getProperty("local.server.port")));
