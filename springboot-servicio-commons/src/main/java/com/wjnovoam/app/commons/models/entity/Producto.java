@@ -1,13 +1,32 @@
-package com.wjnovoam.app.item.models;
+package com.wjnovoam.app.commons.models.entity;
 
+import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Producto {
+@Entity
+@Table(name = "productos")
+public class Producto implements Serializable {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(name = "nombre")
     private String nombre;
+
+    @Column(name = "precio")
     private double precio;
+
+    @Column(name = "create_at")
+    @Temporal(TemporalType.DATE)
     private Date createAt;
+
+    @Transient //Este campo no es persistente, no esta mapeado en la base de datos
     private Integer port;
+
+    public Producto() {
+    }
 
     public Long getId() {
         return id;

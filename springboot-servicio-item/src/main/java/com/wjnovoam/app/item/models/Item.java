@@ -1,4 +1,5 @@
 package com.wjnovoam.app.item.models;
+import com.wjnovoam.app.commons.models.entity.Producto;
 
 
 public class Item {

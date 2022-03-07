@@ -1,6 +1,6 @@
 package com.wjnovoam.app.productos.services;
 
-import com.wjnovoam.app.productos.entity.Producto;
+import com.wjnovoam.app.commons.models.entity.Producto;
 
 import java.util.List;
 

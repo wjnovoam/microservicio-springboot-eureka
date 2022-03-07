@@ -1,7 +1,7 @@
 package com.wjnovoam.app.item.clients;
 
-import com.wjnovoam.app.item.models.Producto;
 import org.springframework.cloud.openfeign.FeignClient;
+import com.wjnovoam.app.commons.models.entity.Producto;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

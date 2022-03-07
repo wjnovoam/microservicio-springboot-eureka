@@ -1,11 +1,11 @@
 package com.wjnovoam.app.item.services;
 
 import com.wjnovoam.app.item.models.Item;
-import com.wjnovoam.app.item.models.Producto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import com.wjnovoam.app.commons.models.entity.Producto;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

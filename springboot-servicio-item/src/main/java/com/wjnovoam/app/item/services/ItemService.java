@@ -1,7 +1,7 @@
 package com.wjnovoam.app.item.services;
 
 import com.wjnovoam.app.item.models.Item;
-import com.wjnovoam.app.item.models.Producto;
+import com.wjnovoam.app.commons.models.entity.Producto;
 
 import java.util.List;
 

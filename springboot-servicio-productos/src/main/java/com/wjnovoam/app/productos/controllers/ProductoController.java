@@ -1,6 +1,6 @@
 package com.wjnovoam.app.productos.controllers;
 
-import com.wjnovoam.app.productos.entity.Producto;
+import com.wjnovoam.app.commons.models.entity.Producto;
 import com.wjnovoam.app.productos.services.IProductosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

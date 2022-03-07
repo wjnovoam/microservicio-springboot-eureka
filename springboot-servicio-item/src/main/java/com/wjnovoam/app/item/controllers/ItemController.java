@@ -1,7 +1,7 @@
 package com.wjnovoam.app.item.controllers;
 
 import com.wjnovoam.app.item.models.Item;
-import com.wjnovoam.app.item.models.Producto;
+import com.wjnovoam.app.commons.models.entity.Producto;
 import com.wjnovoam.app.item.services.ItemService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.timelimiter.annotation.TimeLimiter;

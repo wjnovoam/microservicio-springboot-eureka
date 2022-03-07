@@ -2,7 +2,7 @@ package com.wjnovoam.app.item.services;
 
 import com.wjnovoam.app.item.clients.ProductoClienteRest;
 import com.wjnovoam.app.item.models.Item;
-import com.wjnovoam.app.item.models.Producto;
+import com.wjnovoam.app.commons.models.entity.Producto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
