@@ -45,5 +45,4 @@ spring:
             - StripPrefix=2
             - AddRequestHeader=token-request,123456request
             - AddResponseHeader=token-response,12345678response
-            - SetResponseHeader=Content-Type,text/plain
             - AddRequestParameter=nombre, william
